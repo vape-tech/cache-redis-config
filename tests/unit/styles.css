@@ -1,0 +1,509 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #ccc;
+}
+
+.content {
+  padding: 20px;
+}
+
+.code {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.code pre {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: none;
+}
+
+.code pre code {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.code pre code::before {
+  content: '\00A0';
+}
+
+.code pre code::after {
+  content: '\00A0';
+}
+
+.code .line-numbers {
+  position: absolute;
+  right: 0;
+  font-size: 0.8em;
+  font-family: monospace;
+}
+
+.code .line-numbers span {
+  display: inline-block;
+  width: 4.8em;
+}
+
+.code .line-numbers span::after {
+  content: ' | ';
+}
+
+.code .line-numbers span::before {
+  content: attr(data-line-number);
+}
+
+.code .line-numbers span[data-line-number="1"]::before {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number="*""]::before {
+  content: '...';
+}
+
+.code .line-numbers span[data-line-number]:empty {
+  display: none;
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):last-child::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(1)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(2)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(3)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(4)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(5)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(6)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(7)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(8)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(9)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(10)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(11)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(12)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(13)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(14)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(15)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(16)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(17)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(18)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(19)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(20)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(21)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(22)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(23)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(24)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(25)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(26)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(27)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(28)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(29)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(30)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(31)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(32)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(33)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(34)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(35)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(36)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(37)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(38)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(39)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(40)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(41)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(42)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(43)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(44)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(45)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(46)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(47)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(48)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(49)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(50)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(51)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(52)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(53)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(54)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(55)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(56)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(57)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(58)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(59)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(60)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(61)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(62)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(63)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(64)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(65)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(66)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(67)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(68)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(69)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(70)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(71)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(72)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(73)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(74)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(75)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(76)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(77)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(78)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(79)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(80)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(81)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(82)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(83)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(84)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(85)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(86)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(87)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(88)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(89)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(90)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(91)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(92)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(93)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(94)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(95)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(96)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(97)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(98)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(99)::after {
+  content: '';
+}
+
+.code .line-numbers span[data-line-number]:not(:empty):nth-child(100)::after {
+  content: '';
+}
+
+/*# sourceMappingURL=styles.css.map */
